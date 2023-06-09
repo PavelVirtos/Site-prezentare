@@ -1,0 +1,52 @@
+body{
+    font-family: 'Open Sans', sans-serif;   
+    border: 5px solid #34d994;
+    border-radius: 25px;
+}
+h1{
+    font-size: 28px;
+    color: blueviolet;
+    text-align: center;
+    
+}
+#javascript h2, #javascript h3 {
+    color: rebeccapurple;
+}
+#javascript p {
+  color: purple;
+}
+a:hover{
+    color: white;
+    background-color: blue ;
+    
+}
+.navMenu:hover {
+   
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #94cc2b;
+  }
